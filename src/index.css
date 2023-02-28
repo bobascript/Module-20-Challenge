@@ -31,16 +31,42 @@ font-weight: bold;
 text-decoration: none;
 }
 
+#buttons{
+  border: none;
+  background-color: var(--green-two);
+  color: var(--color-four);
+  margin-left: 16%;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 20px
+}
+#buttons:hover{
+  cursor: pointer;
+}
 #pfp{
   max-height: 300px;
-  margin: 2px;
   border: 3px solid var(--color-four);
   border-radius: 10px;
   margin-bottom: 10%;
+  margin-top: 3%;
 }
-#middle{
+.middle{
   background-color: var(--green-three);
   font-size: 25px;
+  text-align: center;
+}
+#list{
+  list-style: none;
+  margin-right: 2.5%;
+}
+#resDl{
+  color: var(--color-four);
+  margin:10%;
 }
 #aboutme{
   display: flex;
@@ -50,4 +76,6 @@ text-decoration: none;
 #bio {
   width: 40%;
   margin: 15px;
+  margin-top: 3%;
+  margin-right: 5%;
 }

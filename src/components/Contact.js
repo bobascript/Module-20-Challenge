@@ -1,8 +1,7 @@
 import React from "react";
 import "../index.css"
 
-function ContactForm({
-    return (
-        
-    )
-})
+function ContactForm(){
+    
+}
+export default ContactForm

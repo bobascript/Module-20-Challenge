@@ -4,7 +4,7 @@ import "../index.css"
 
 function AboutMe() {
     return (
-        <section id="middle">
+        <section className="middle">
             <h2 style={{textAlign:"center",textDecoration:"underline"}}>About Me</h2>
             <div id="aboutme">
                 <img id="pfp" src={Pfp} alt="A profile icon of a stylized drawing of Javier" />
