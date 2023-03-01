@@ -1,29 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700;800&display=swap');
 
-body {
-  margin: 0;
-  font-family:'Gemunu Libre', sans-serif;
-  color: #ffecd5;
-}
-
-code {
-  font-family: 'Gemunu Libre', sans-serif;
-}
-
 :root {
   --green-one: #8d9c84;
   --green-two: #445739;
   --green-three: #72806a;
   --color-four: #ffecd5;
 }
+
+body {
+  margin: 0;
+  font-family:'Gemunu Libre', sans-serif;
+  color: #ffecd5;
+}
+
+.middle{
+  background-color: var(--green-three);
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 1%;
+  margin-top:20px ;
+  padding-top: 1%;
+}
+
+/*Footer*/
 footer{
   text-align: center;
   font-size: 25px;
 }
+
 footer p{
   font-weight: 800;
   text-decoration: underline;
 }
+
 footer a{
 color: var(--color-four);
 margin: 15px;
@@ -31,6 +40,7 @@ font-weight: bold;
 text-decoration: none;
 }
 
+/*Header Buttons*/
 #buttons{
   border: none;
   background-color: var(--green-two);
@@ -48,6 +58,7 @@ text-decoration: none;
 #buttons:hover{
   cursor: pointer;
 }
+/*About Me*/
 #pfp{
   max-height: 300px;
   border: 3px solid var(--color-four);
@@ -55,11 +66,21 @@ text-decoration: none;
   margin-bottom: 10%;
   margin-top: 3%;
 }
-.middle{
-  background-color: var(--green-three);
-  font-size: 25px;
-  text-align: center;
+
+#aboutme{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
+#bio {
+  width: 40%;
+  margin: 15px;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+/*Resume Section*/
 #list{
   list-style: none;
   margin-right: 2.5%;
@@ -68,14 +89,24 @@ text-decoration: none;
   color: var(--color-four);
   margin:10%;
 }
-#aboutme{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
+/*Contact Section*/
+#submitBtn{
+  border: none;
+  background-color: var(--green-two);
+  color: var(--color-four);
+  font-weight: bold;
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  padding-left: 17px;
+  padding-right: 17px;
 }
-#bio {
-  width: 40%;
-  margin: 15px;
-  margin-top: 3%;
-  margin-right: 5%;
+#contact{
+  margin-bottom: 2%;
+}
+#submitBtn:hover{
+  cursor: pointer;
 }

@@ -5,6 +5,8 @@ import Navi from './components/Navi.js'
 import AboutMe  from './components/AboutMe.js';
 import Footer from './components/Footer.js';
 import Resume from './components/Resume.js'
+import ContactForm from './components/Contact.js';
+import Portfolio from  './components/Portfolio.js'
 function App() {
   const [categories] = useState ([
     { name: "About Me" },
@@ -21,6 +23,8 @@ function App() {
       <Navi categories={categories} setCurrentCategory={setCurrentCategory} currentCategory={currentCategory}/>
     <div>
       {currentCategory===categories[0]&&<AboutMe/>}
+      {currentCategory===categories[1]&&<Portfolio/>}
+      {currentCategory===categories[2]&&<ContactForm/>}
       {currentCategory===categories[3]&&<Resume/>}
     </div>
     <Footer/>
