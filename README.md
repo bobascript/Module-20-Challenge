@@ -42,7 +42,7 @@ When you open the page, you will be greeted by the About Me section, as well as 
 
 ## Screenshot
 
-![My Portfolio Screenshot](assets/portfolioscreenshot.png)
+![My Portfolio Screenshot](./src/assets/portfolioscreenshot.png)
 
 ## Deployed Page
 
