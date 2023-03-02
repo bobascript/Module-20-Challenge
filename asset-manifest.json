@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Module-20-Challenge/static/css/main.ed135974.css",
+    "main.js": "/Module-20-Challenge/static/js/main.e58dd279.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Module-20-Challenge/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mod1screenshot.png": "/Module-20-Challenge/static/media/mod1screenshot.4fe98c99bd8bb789b805.png",
+    "static/media/Pfp.png": "/Module-20-Challenge/static/media/Pfp.032dc83b09a9eb3560c2.png",
+    "static/media/secretsauce.png": "/Module-20-Challenge/static/media/secretsauce.a29a16d35769a8657c19.png",
+    "static/media/weatherdashboard2.png": "/Module-20-Challenge/static/media/weatherdashboard2.be3efd11656f06959612.png",
+    "static/media/JaviResume.pdf": "/Module-20-Challenge/static/media/JaviResume.c2f1d8c4c80cfc856d58.pdf",
+    "static/media/quizscreenshot.png": "/Module-20-Challenge/static/media/quizscreenshot.ce785ec3881155e0fd9f.png",
+    "static/media/pwgen.png": "/Module-20-Challenge/static/media/pwgen.808b053d1f6c2671e56f.png",
+    "static/media/foodgram.png": "/Module-20-Challenge/static/media/foodgram.980a9747d57c70c152f9.png",
+    "index.html": "/Module-20-Challenge/index.html",
+    "main.ed135974.css.map": "/Module-20-Challenge/static/css/main.ed135974.css.map",
+    "main.e58dd279.js.map": "/Module-20-Challenge/static/js/main.e58dd279.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Module-20-Challenge/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed135974.css",
+    "static/js/main.e58dd279.js"
+  ]
+}
