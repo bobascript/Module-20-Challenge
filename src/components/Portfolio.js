@@ -6,7 +6,7 @@ import pwgen from "../assets/pwgen.png";
 import accessibility from "../assets/mod1screenshot.png"
 import foodgram from "../assets/foodgram.png";
 import secretsauce from "../assets/secretsauce.png";
-
+import moodify from '../assets/mcubedlogo.png'
 
 function Portfolio(){
     const portfolio =[
@@ -29,10 +29,10 @@ function Portfolio(){
             repo: "https://github.com/bobascript/password-generator-fixed"
         },
         {
-            name: "Module 1 Challenge: Accessibility",
-            imgsrc: accessibility,
-            link: "https://bobascript.github.io/module1challenge-accessibility/",
-            repo: "https://github.com/bobascript/module1challenge-accessibility"
+            name: "Match My Mood",
+            imgsrc: moodify,
+            link: "https://bobascript.github.io/Module-20-Challenge/",
+            repo: "https://github.com/bobascript/Module-20-Challenge"
         },
         {
             name: "Foodgram",
